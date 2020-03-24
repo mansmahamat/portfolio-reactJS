@@ -1,0 +1,10 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+
+.typeText {
+  font-family: 'Source Code Pro', monospace;  
+  font-size: 28px;
+  color: #fff;
+}
