@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import './Resume.css';
+
+
+
+
 
 class Resume extends Component {
   render() {
-
+    
     if(this.props.data){
       
       var education = this.props.data.education.map(function(education){
@@ -37,11 +42,11 @@ class Resume extends Component {
     }
 
     return (
-      <section id="resume">
+      <section id="resume" >
 
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1><span className="hey">Formation</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -57,7 +62,7 @@ class Resume extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Travail</span></h1>
          </div>
 
          <div className="nine columns main-col">

@@ -10,8 +10,14 @@ import Contact from './Components/Contact';
 import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
+
+
+
+
 class App extends Component {
 
+
+  
   constructor(props){
     super(props);
     this.state = {
@@ -43,9 +49,11 @@ class App extends Component {
     this.getResumeData();
   }
 
+  
+
   render() {
     return (
-      <div className="App">
+      <div className="App ">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
