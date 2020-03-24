@@ -20,7 +20,7 @@ class Portfolio extends Component {
               <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
           </div>
-          <div className="details"><i className="fa fa-eye"></i></div>
+         
         </div>
       })
     }
@@ -32,7 +32,7 @@ class Portfolio extends Component {
 
          <div className="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Projets réalisés.</h1>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}

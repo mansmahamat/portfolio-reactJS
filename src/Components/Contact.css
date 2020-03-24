@@ -1,19 +1,33 @@
+
+:root {
+   --color-black : #07090A  ;
+   --color-salmon-light : rgb(255, 165, 105);
+   --color-silver : #e4e7ea;
+   --color-salmon-dark : #e9967a;
+   --color-white : #fff;
+   --color-jaune : #ddb122;
+   --color-silver-3 : #808080;
+   --color-online : 	rgb(148, 158, 148);
+   
+}
+
+
 #contact {
-    background: #191919;
+    background: var(--color-white);
     padding-top: 96px;
     padding-bottom: 102px;
-    color: #636363;
+    color: var(--color-black);
  }
  #contact .section-head { margin-bottom: 42px; }
  
- #contact a, #contact a:visited  { color: #11ABB0; }
- #contact a:hover, #contact a:focus { color: #fff; }
+ #contact a, #contact a:visited  { color: var(--color-jaune); }
+ #contact a:hover, #contact a:focus { color: var(--color-jaune); }
  
  #contact h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #EBEEEE;
+    color: var(--color-black);
     margin-bottom: 6px;
  }
  #contact h1 span { display: none; }
@@ -25,16 +39,16 @@
     line-height: 72px;
     text-align: left;
     float: left;
-    color: #ebeeee;
+    color: var(--color-black);
  }
  
  #contact h4 {
     font: 16px/24px 'opensans-bold', sans-serif;
-    color: #EBEEEE;
+    color: var(--color-black);
     margin-bottom: 6px;
  }
  #contact p.lead {
-    font: 18px/36px 'opensans-light', sans-serif;
+    font: 18px 'Josefin sans', sans-serif;
     padding-right: 3%;
  }
  #contact .header-col { padding-top: 6px; }
@@ -45,7 +59,7 @@
  #contact label {
     font: 15px/24px 'opensans-bold', sans-serif;
     margin: 12px 0;
-    color: #EBEEEE;
+    color: var(--color-black);
      display: inline-block;
      float: left;
     width: 26%;
@@ -55,9 +69,11 @@
  #contact select {
     padding: 18px 20px;
      color: #eee;
-     background: #373233;
+     resize: none;
+     background: var(--color-white);
+     border: 2px solid var(--color-black);
      margin-bottom: 42px;
-     border: 0;
+     
      outline: none;
     font-size: 15px;
     line-height: 24px;
@@ -67,13 +83,13 @@
  #contact textarea:focus,
  #contact select:focus {
      color: #fff;
-     background-color: #11ABB0;
+     background-color: var(--color-white);
  }
  #contact button.submit {
      text-transform: uppercase;
      letter-spacing: 3px;
      color:#fff;
-    background: #0D0D0D;
+    background: var(--color-jaune);
      border: none;
     cursor: pointer;
     height: auto;
@@ -82,12 +98,12 @@
     margin-left: 26%;
  }
  #contact button.submit:hover {
-     color: #0D0D0D;
-     background: #fff;
+     color: var(--color-white);
+     background: var(--color-black);
  }
  #contact span.required {
-     color: #11ABB0;
-     font-size: 13px;
+     color: var(--color-jaune);
+     font-size: 18px;
  }
  #message-warning, #message-success {
     display: none;
@@ -112,20 +128,4 @@
  }
  
  
- /* Twitter Feed */
- #twitter {
-    margin-top: 12px;
-    padding: 0;
- }
- #twitter li {
-    margin: 6px 0px 12px 0;
-    line-height: 30px;
- }
- #twitter li span {
-    display: block;
- }
- #twitter li b a {
-    font: 13px/36px 'opensans-regular', Sans-serif;
-    color: #474747 !important;
-    border: none;
- }
+ 

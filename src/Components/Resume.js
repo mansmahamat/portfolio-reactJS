@@ -39,6 +39,25 @@ class Resume extends Component {
   
      </div>
       })
+
+      var softSkills = this.props.data.softSkills.map(function(softSkills){
+        var softSkillsImage = 'images/skills/'+softSkills.image;
+        return <div key={softSkills.name} className="columns portfolio-item">
+        <div className="item-wrap">
+       
+           
+            
+               <div className="portfolio-item-meta">
+              <img alt={softSkills.name} src={softSkillsImage} />   
+              <h4>{softSkills.name}</h4>
+                  
+                  <em>{softSkills.description}</em>
+               </div>
+         
+       </div>
+  
+     </div>
+      })
     }
 
     return (
@@ -72,17 +91,33 @@ class Resume extends Component {
 
 
 
+
     <div className="row">
 
 <div className="twelve columns collapsed">
 
-   <h1>Check Out Some of My Works.</h1>
+<h1><span>Technologies utilisés</span></h1>
 
    <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
        {skills}
    </div>
  </div>
 </div>
+
+<div className="row">
+
+<div className="twelve columns collapsed">
+
+   <h1><span>Soft Skills</span></h1>
+
+   <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+       {softSkills}
+   </div>
+ </div>
+</div>
+
+
+
      
    </section>
     );

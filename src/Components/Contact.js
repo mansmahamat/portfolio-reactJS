@@ -23,7 +23,7 @@ class Contact extends Component {
 
             <div className="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1><span>Contactez Moi</span></h1>
 
             </div>
 
@@ -42,7 +42,7 @@ class Contact extends Component {
 					<fieldset>
 
                   <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
+						   <label htmlFor="contactName">Nom <span className="required">*</span></label>
 						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
                   </div>
 
@@ -52,7 +52,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-						   <label htmlFor="contactSubject">Subject</label>
+						   <label htmlFor="contactSubject">Objet</label>
 						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
                   </div>
 
@@ -62,7 +62,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                     <button className="submit">Submit</button>
+                     <button className="submit">Envoyer</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif" />
                      </span>
@@ -80,13 +80,7 @@ class Contact extends Component {
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
-					   <h4>Address and Phone</h4>
-					   <p className="address">
-						   {name}<br />
-						   {street} <br />
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
-					   </p>
+					   
 				   </div>
 
                

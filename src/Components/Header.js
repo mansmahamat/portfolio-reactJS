@@ -47,11 +47,11 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">
+            <h1 className="responsive-headline title">
                {name}.
             </h1>
             <h2 className="typing"><ReactTypingEffect
-                  text='DÉVELOPPEUR WEB 💻'
+                  text='DÉVELOPPEUR WEB en formation 💻'
                   className='typeText'/>
             </h2>
             {/*<h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>*/}
