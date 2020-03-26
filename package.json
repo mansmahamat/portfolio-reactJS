@@ -7,7 +7,10 @@
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",
+    "react-mail-form": "^2.1.0",
     "react-scripts": "1.0.17",
+    "react-twitter-embed": "^3.0.3",
+    "react-twitter-embedded-timeline": "^0.5.1",
     "react-typed": "^1.2.0",
     "react-typing-effect": "^2.0.3",
     "styled-components": "^5.0.1",
@@ -30,6 +33,7 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
+    ],
+    "homepage": "http://mansour-mahamat.fr/"
   }
 }

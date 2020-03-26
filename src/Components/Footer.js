@@ -6,7 +6,7 @@ class Footer extends Component {
 
     if(this.props.data){
       var networks= this.props.data.social.map(function(network){
-        return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+        return <li key={network.name}><a href={network.url}target="_blank" rel="noopener noreferrer"><i className={network.className}></i></a></li>
       })
     }
 
@@ -20,7 +20,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2020 Mahamat-Salle Mansour made with 💘 </li>
+              <li>&copy; Copyright 2020 Mahamat-Salle Mansour. Made with 🧡 React JS </li>
            </ul>
 
         </div>

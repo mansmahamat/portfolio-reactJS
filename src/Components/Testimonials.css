@@ -17,7 +17,7 @@
     background-size: cover !important;
      -webkit-background-size: cover !important;
     background-attachment: fixed;
- 
+  
     position: relative;
     min-height: 200px;
     width: 100%;
@@ -26,6 +26,7 @@
  #testimonials .text-container {
     padding-top: 96px;
     padding-bottom: 66px;
+    
  }
  #testimonials h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
@@ -59,14 +60,14 @@
     padding: 0;
     font-size: 24px;
     line-height: 48px;
-    color: #fff
+    color: var(--color-black);
  }
  #testimonials blockquote cite {
     display: block;
     font-size: 12px;
     font-style: normal;
     line-height: 18px;
-    color: #fff;
+    color: var(--color-black);
  }
  #testimonials blockquote cite:before { content: "\2014 \0020"; }
  #testimonials blockquote cite a,

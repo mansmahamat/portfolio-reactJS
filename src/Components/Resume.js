@@ -51,7 +51,7 @@ class Resume extends Component {
               <img alt={softSkills.name} src={softSkillsImage} />   
               <h4>{softSkills.name}</h4>
                   
-                  <em>{softSkills.description}</em>
+                 
                </div>
          
        </div>
@@ -65,7 +65,7 @@ class Resume extends Component {
 
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span className="hey">Formation</span></h1>
+            <h1><span className="hey">Formations</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -81,7 +81,7 @@ class Resume extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Travail</span></h1>
+            <h1><span>Emplois</span></h1>
          </div>
 
          <div className="nine columns main-col">

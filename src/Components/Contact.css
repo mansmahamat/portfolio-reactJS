@@ -24,16 +24,14 @@
  #contact a:hover, #contact a:focus { color: var(--color-jaune); }
  
  #contact h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    font: 18px/24px 'Josefin sans', sans-serif;
     color: var(--color-black);
     margin-bottom: 6px;
  }
- #contact h1 span { display: none; }
+
  #contact h1:before {
     font-family: 'FontAwesome';
-    content: "\f0e0";
+    content: "\f0e0 ";
      padding-right: 10px;
      font-size: 72px;
     line-height: 72px;
@@ -68,7 +66,7 @@
  #contact textarea,
  #contact select {
     padding: 18px 20px;
-     color: #eee;
+     color: var(--color-black);
      resize: none;
      background: var(--color-white);
      border: 2px solid var(--color-black);
@@ -82,7 +80,7 @@
  #contact input:focus,
  #contact textarea:focus,
  #contact select:focus {
-     color: #fff;
+     color: var(--color-black);
      background-color: var(--color-white);
  }
  #contact button.submit {
@@ -126,6 +124,5 @@
     left: 18px;
     top: 17px;
  }
- 
  
  

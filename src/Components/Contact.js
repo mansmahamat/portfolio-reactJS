@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
 import './Contact.css';
+import ReactContactForm from 'react-mail-form';
+import TwitterTimeline from 'react-twitter-embedded-timeline';
+
 
 
 class Contact extends Component {
-  render() {
+  
+  
+  
+  
+  
+   render() {
 
     if(this.props.data){
       var name = this.props.data.name;
-      var street = this.props.data.address.street;
-      var city = this.props.data.address.city;
-      var state = this.props.data.address.state;
-      var zip = this.props.data.address.zip;
-      var phone= this.props.data.phone;
-      /*var email = this.props.data.email;*/
+      var email = this.props.data.email;
       var message = this.props.data.contactmessage;
     }
 
@@ -23,14 +26,13 @@ class Contact extends Component {
 
             <div className="two columns header-col">
 
-               <h1><span>Contactez Moi</span></h1>
+               <h1><span>N'hésitez pas à me contacter si vous aimez ce que je fais 📱.</span></h1>
 
             </div>
 
             <div className="ten columns">
 
-                  <p className="lead">{message}</p>
-
+                  
             </div>
 
          </div>
@@ -38,49 +40,29 @@ class Contact extends Component {
          <div className="row">
             <div className="eight columns">
 
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label htmlFor="contactName">Nom <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-						   <label htmlFor="contactSubject">Objet</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button className="submit">Envoyer</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif" />
-                     </span>
-                  </div>
-					</fieldset>
-				   </form>
-
-           <div id="message-warning"> Error boy</div>
-				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
+            <ReactContactForm 
+            className="littleForm"
+            to="mansour.mahamat.salle@gmail.com" 
+            titlePlaceholder="Sujet..."
+            contentsPlaceholder="Votre message..."
+            buttonText="Envoyer l'email"
+            />
+           
            </div>
 
 
             <aside className="four columns footer-widgets">
                <div className="widget widget_contact">
 
-					   
+                      
+                        <p> {name}<br/>{email}</p>
+                                    
+                        <p> 
+                        <a className="twitter-timeline" href="https://twitter.com/Mans____M?ref_src=twsrc%5Etfw">
+                           <TwitterTimeline  />
+                        </a> 
+                        <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
+                           </p>
 				   </div>
 
                

@@ -1,21 +1,17 @@
 {
   "main": {
     "name":"Mansour Mahamat-Salle",
-    "occupation":"(Your Occupation Here)",
-    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
-    "bio":"Actuellement en formation avec l'ADRAR Montpellier afin d'obtenir le titre professionnel de Développeur web (Bac +2). J'ai obtenu mon bac STG (option comptabilité) en 2013, par la suite j'ai arrêté mes études afin de travailler dans la vente. J'ai enchainé les expériences chez Zara, Intersport... qui m'ont permis d'acquérir l'esprit d'équipe, l'autonomie ainsi que la persévérance pour atteindre mes objectifs. Passionné depuis toujours par l'informatique je n'ai jamais pensé auparavant en faire mon métier, mais au fil des années je me suis aperçu que ce domaine m'épanouissait.",
+    "bio":"Actuellement en formation avec l'ADRAR Montpellier afin d'obtenir le titre professionnel de Développeur web (Bac +2). J'ai obtenu mon bac STG (option comptabilité) en 2013, par la suite j'ai arrêté mes études afin de travailler dans la vente. J'ai enchainé les expériences chez Zara, Intersport... qui m'ont permis d'acquérir l'esprit d'équipe, l'autonomie ainsi que la persévérance pour atteindre mes objectifs. Passionné depuis toujours par l'informatique je n'ai jamais pensé auparavant en faire mon métier, mais au fil des années je me suis aperçu que ce domaine m'épanouissait. À la fois intéressé par le développement back-end et front-end, je peux vous accompagner sur toutes les étapes de la réalisation de vos projets web : analyse de vos besoins et conceptualisation, conception et développement sur mesure des fonctionnalités, suivi et maintenance de vos outils.",
     "contactmessage":"N'hésitez pas à me contacter si vous aimez ce que je fais.",
     "email": "mansour.mahamat.salle@gmail.com",
-    "phone": "555-555-5555",
     "address":{
       "street":"Route de Nimes",
       "city":"Montpellier",
-      "state":"(Your State)",
       "zip": "34000"
     },
     "website": "http://mansour-mahamat.fr/",
-    "resumedownload":"http://mansour-mahamat.fr/mansourcvdev.pdf",
+    "resumedownload":"https://drive.google.com/open?id=1B--ASfJiksynSi8eRcyYuSFX9FIettCl",
     "social":[
    
       
@@ -36,7 +32,6 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
         "school":"Adrar Montpellier",
@@ -74,74 +69,74 @@
       {
         "name":"Esprit d'équipe",
         "image":"equipe.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"Motivation",
         "image":"motivation.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"Passioné",
         "image":"monitor.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"Soif d'apprendre",
         "image":"book.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       }
     ],
     "skills":[
       {
         "name":"Wordpress",
         "image":"wordpress.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"Npm",
         "image":"npm.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"Git",
         "image":"git.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"Bootstrap",
         "image":"bootstrap.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"ReactJs",
         "image":"reactjs.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"Css",
         "image":"css.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"PHP",
         "image":"php.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"Javascript Vanilla",
         "image":"js.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"Symfony",
         "image":"symfony.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       },
       {
         "name":"MySQL",
         "image":"sql.png",
-        "description" : "Lorem ipsum gsdssfghjkfcgvhbjkghjk"
+        "description" : ""
       }
     ]
   },
@@ -150,33 +145,33 @@
     "projects": [
       {
         "title":"Application météo",
-        "category":"Application météo créer avec la méthode Fetch",
+        "category":"Techno : JS vanilla/CSS",
         "image":"meteo.png",
         "url":"https://www.canadianwanderlust.com"
       },
       {
         "title":"Music",
-        "category":"Projet personnel crée en PHP.",
+        "category":"Techno : PHP, Bootstrap, MySQL",
         "image":"music.png",
-        "url":"http://www.timbakerdev.com"
+        "url":"http://mansmusic.ovh/music/register.php"
       },
       {
         "title":"Australia Savior",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "category":"Projet de groupe, ⛔Non responsive, Techno : Tailwind CSS, Js vanilla, JQuery",
         "image":"australia.png",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"https://rudygzl.github.io/australiasavior/dist/"
       },
       {
         "title":"Quizz Js",
-        "category":"A React based resume website template",
+        "category":"Techno : Js Vanilla, Bootstrap, Anime.JS ",
         "image":"quizz.png",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://mansmahamat.github.io/QuizzCity/"
       },
       {
-        "title":"Chat PHP",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"chat.png",
-        "url":"http://www.smirkspace.com"
+        "title":"Portfolio v1",
+        "category":"Techno : Bootstrap, jQuery ",
+        "image":"portfoliov1.png",
+        "url":"https://mansmahamat.github.io/portfolio-basic/"
       }
     ]
   },
