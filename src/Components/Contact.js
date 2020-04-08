@@ -47,6 +47,9 @@ class Contact extends Component {
             contentsPlaceholder="Votre message..."
             buttonText="Envoyer l'email"
             />
+
+
+            
            
            </div>
 
@@ -55,11 +58,17 @@ class Contact extends Component {
                <div className="widget widget_contact">
 
                       
-                        <p> {name}<br/>{email}</p>
-                                    
-                        <p> 
-                        <a className="twitter-timeline" href="https://twitter.com/Mans____M?ref_src=twsrc%5Etfw">
-                           <TwitterTimeline  />
+                        <p>
+                           Ma playlist pour travailler :
+                        <iframe scrolling="no" frameBorder="0" allowtransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=300&height=300&color=DDB122&layout=&size=medium&type=playlist&id=1655130801&app_id=1" width="300" height="300"></iframe>
+                        </p>
+
+
+
+                        <p> <TwitterTimeline  />
+                        <a className="twitter-timeline" href="https://twitter.com/Mans____M?ref_src=twsrc%5Etfw" data-tweet-limit="2">
+                           
+                           
                         </a> 
                         <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8"></script>
                            </p>

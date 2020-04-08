@@ -24,7 +24,7 @@
  #contact a:hover, #contact a:focus { color: var(--color-jaune); }
  
  #contact h1 {
-    font: 18px/24px 'Josefin sans', sans-serif;
+    font: 20px/24px 'Josefin sans', sans-serif;
     color: var(--color-black);
     margin-bottom: 6px;
  }
@@ -101,7 +101,7 @@
  }
  #contact span.required {
      color: var(--color-jaune);
-     font-size: 18px;
+     font-size: 18Spx;
  }
  #message-warning, #message-success {
     display: none;

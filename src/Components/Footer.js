@@ -18,7 +18,7 @@ class Footer extends Component {
            <ul className="social-links">
               {networks}
            </ul>
-
+          
            <ul className="copyright">
               <li>&copy; Copyright 2020 Mahamat-Salle Mansour. Made with 🧡 React JS </li>
            </ul>

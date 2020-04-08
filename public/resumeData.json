@@ -144,12 +144,6 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Application météo",
-        "category":"Techno : JS vanilla/CSS",
-        "image":"meteo.png",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
         "title":"Music",
         "category":"Techno : PHP, Bootstrap, MySQL",
         "image":"music.png",
@@ -172,6 +166,30 @@
         "category":"Techno : Bootstrap, jQuery ",
         "image":"portfoliov1.png",
         "url":"https://mansmahamat.github.io/portfolio-basic/"
+      },
+      {
+        "title":"App Music avec API Deezer 🎵",
+        "category":"Techno : React JS/Bootstrap",
+        "image":"deezermusic.png",
+        "url":"https://chalet-caviars.site/ "
+      },
+      {
+        "title":"Classement football avec API ⚽",
+        "category":"Techno : React JS",
+        "image":"football.png",
+        "url":"http://football.mansmusic.ovh/"
+      },
+      {
+        "title":"Champions Park",
+        "category":"Techno : Wordpress, WooCommerce",
+        "image":"wordpress.png",
+        "url":"https://www.fitactive.site/"
+      },
+      {
+        "title":"Shop MTP",
+        "category":"Techno : Symfony",
+        "image":"shop-symfony.png",
+        "url":"http://www.shop-symfony.chalet-caviars.site/"
       }
     ]
   },
