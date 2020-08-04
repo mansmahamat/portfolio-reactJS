@@ -53,7 +53,7 @@ class Header extends Component {
                {name}.
             </h1>
             <h2 className="typing"><ReactTypingEffect
-                  text='DÉVELOPPEUR WEB en formation 💻'
+                  text='Formation DÉVELOPPEUR WEB'
                   className='typeText'/>
             </h2>
             {/*<h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3>*/}

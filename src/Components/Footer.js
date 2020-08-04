@@ -20,7 +20,7 @@ class Footer extends Component {
            </ul>
           
            <ul className="copyright">
-              <li>&copy; Copyright 2020 Mahamat-Salle Mansour. Made with 🧡 React JS </li>
+              <li>&copy; Copyright 2020 Mahamat-Salle Mansour. Made with React JS </li>
            </ul>
 
         </div>

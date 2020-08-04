@@ -13,11 +13,7 @@ class Contact extends Component {
   
    render() {
 
-    if(this.props.data){
-      var name = this.props.data.name;
-      var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
-    }
+    
 
     return (
       <section id="contact">
@@ -26,7 +22,7 @@ class Contact extends Component {
 
             <div className="two columns header-col">
 
-               <h1><span>N'hésitez pas à me contacter si vous aimez ce que je fais 📱.</span></h1>
+               <h1><span>N'hésitez pas à me contacter si vous aimez ce que je fais .</span></h1>
 
             </div>
 
@@ -60,7 +56,7 @@ class Contact extends Component {
                       
                         <p>
                            Ma playlist pour travailler :
-                        <iframe scrolling="no" frameBorder="0" allowtransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=300&height=300&color=DDB122&layout=&size=medium&type=playlist&id=1655130801&app_id=1" width="300" height="300"></iframe>
+                        <iframe scrolling="no" frameBorder="0" title="social" allowtransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=300&height=300&color=DDB122&layout=&size=medium&type=playlist&id=1655130801&app_id=1" width="300" height="300"></iframe>
                         </p>
 
 
