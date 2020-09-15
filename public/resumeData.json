@@ -2,7 +2,7 @@
   "main": {
     "name":"Mansour Mahamat-Salle",
     "image":"profilepic.jpg",
-    "bio":"Actuellement en formation avec l'ADRAR Montpellier afin d'obtenir le titre professionnel de Développeur web (Bac +2). J'ai obtenu mon bac STG (option comptabilité) en 2013, par la suite j'ai arrêté mes études afin de travailler dans la vente. J'ai enchainé les expériences chez Zara, Intersport... qui m'ont permis d'acquérir l'esprit d'équipe, l'autonomie ainsi que la persévérance pour atteindre mes objectifs. Passionné depuis toujours par l'informatique je n'ai jamais pensé auparavant en faire mon métier, mais au fil des années je me suis aperçu que ce domaine m'épanouissait. À la fois intéressé par le développement back-end et front-end, je peux vous accompagner sur toutes les étapes de la réalisation de vos projets web : analyse de vos besoins et conceptualisation, conception et développement sur mesure des fonctionnalités, suivi et maintenance de vos outils.",
+    "bio":"Actuellement en formation avec l'ADRAR Montpellier afin d'obtenir le titre professionnel de Développeur web (Bac +2). Je suis actuellement à la recherche d'un poste d'Alternant développeur web en contrat d'apprentissage (éligible au 8000 € d'aides de l'État) durant 12 mois à partir du mois d'octobre/novembre 2020. Au programme de mon alternance le front-end avec React en utilisant TypeScript, du back-end avec Node JS ; Comprendre les enjeux des pratiques Devops en entreprise, appliquer le principe du Test Driven Development et l'utilisation de Docker. ",
     "contactmessage":"N'hésitez pas à me contacter si vous aimez ce que je fais.",
     "email": "mansour.mahamat.salle@gmail.com",
     "address":{
@@ -34,8 +34,14 @@
   "resume":{
     "education":[
       {
-        "school":"Adrar Montpellier",
-        "degree":"Titre professionnel de niveau III (BAC+2)",
+        "school":"Wild Code School - Remote",
+        "degree":"Titre professionnel Concepteur Développeur d’Application (Bac+4)",
+        "graduated":"Novembre 2020",
+        "description":"- Développer le front-end avec React, Développer le back-end avec NodeJS, Appliquer le principe du Test Driven Development, Utiliser Docker"
+      },
+      {
+        "school":"Adrar - Montpellier",
+        "degree":"Titre professionnel Développeur Web (BAC+2)",
         "graduated":"Décembre 2019",
         "description":"- Développer la partie front-end, partie back-end, travail en équipe"
       },
@@ -48,7 +54,13 @@
     ],
     "work":[
       {
-        "company":"Kêole Saint Jean de Védas",
+        "company":"Agence Etiseo - Castelnau le Lez",
+        "title":"Stage fin de formation 2 mois et demie Développeur Web ",
+        "years":"Juin 2020",
+        "description":"Développement sous Laravel, React et élaboration projet sous Symfony."
+      },
+      {
+        "company":"Kêole - Saint Jean de Védas",
         "title":"Stage immersion 1 mois Développeur Web ",
         "years":"Septembre 2019",
         "description":"Mise en pratique en Wordpress, découverte PHP, création portfolio."
@@ -89,28 +101,8 @@
     ],
     "skills":[
       {
-        "name":"Wordpress",
-        "image":"wordpress.png",
-        "description" : ""
-      },
-      {
-        "name":"Npm",
-        "image":"npm.png",
-        "description" : ""
-      },
-      {
         "name":"Git",
         "image":"git.png",
-        "description" : ""
-      },
-      {
-        "name":"Bootstrap",
-        "image":"bootstrap.png",
-        "description" : ""
-      },
-      {
-        "name":"ReactJs",
-        "image":"reactjs.png",
         "description" : ""
       },
       {
@@ -119,23 +111,28 @@
         "description" : ""
       },
       {
+        "name":"Tailwind Css",
+        "image":"tailwind.png",
+        "description" : ""
+      },
+      {
+        "name":"Javascript",
+        "image":"js.png",
+        "description" : ""
+      },
+      {
+        "name":"ReactJs",
+        "image":"reactjs.png",
+        "description" : ""
+      },
+      {
         "name":"PHP",
         "image":"php.png",
         "description" : ""
       },
       {
-        "name":"Javascript Vanilla",
-        "image":"js.png",
-        "description" : ""
-      },
-      {
         "name":"Symfony",
         "image":"symfony.png",
-        "description" : ""
-      },
-      {
-        "name":"Node Js",
-        "image":"nodejs.png",
         "description" : ""
       },
       {
@@ -149,13 +146,13 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Music",
+        "title":"Music 🎶",
         "category":"Techno : PHP, Bootstrap, MySQL",
         "image":"music.png",
         "url":"http://mansmusic.ovh/music/register.php"
       },
       {
-        "title":"Australia Savior",
+        "title":"Australia Savior 🔥",
         "category":"Projet de groupe, ⛔Non responsive, Techno : Tailwind CSS, Js vanilla, JQuery",
         "image":"australia.png",
         "url":"https://rudygzl.github.io/australiasavior/dist/"
@@ -167,7 +164,7 @@
         "url":"https://mansmahamat.github.io/QuizzCity/"
       },
       {
-        "title":"Portfolio v1",
+        "title":"Portfolio v1 💻",
         "category":"Techno : Bootstrap, jQuery ",
         "image":"portfoliov1.png",
         "url":"https://mansmahamat.github.io/portfolio-basic/"
@@ -179,28 +176,46 @@
         "url":"https://chalet-caviars.site/ "
       },
       {
-        "title":"Classement football avec API ⚽",
+        "title":"Classement football avec API Football-Data ⚽",
         "category":"Techno : React JS",
         "image":"football.png",
         "url":"http://football.mansmusic.ovh/"
       },
       {
-        "title":"Champions Park",
+        "title":"Champions Park 🎡",
         "category":"Techno : Wordpress, WooCommerce",
         "image":"wordpress.png",
         "url":"https://www.fitactive.site/"
       },
       {
-        "title":"GO RHINO Symfony",
-        "category":"Techno : Symfony",
+        "title":"Go Rhino rent car 🚗",
+        "category":"Techno : Symfony, Algolia Place, Mapbox & Tailwind Css",
         "image":"Gorhino.png",
         "url":"http://gorhino.fitactive.site/"
       },
       {
-        "title":"Mony App",
+        "title":"Mony App 💸",
         "category":"Techno : React & Tailwind Css",
         "image":"monyapp.png",
         "url":"https://monyapp.netlify.app/"
+      },
+      {
+        "title":"Breaking Bad API 👨‍🏫👨‍🍳",
+        "category":"Techno : VUE JS & Tailwind Css",
+        "image":"breakingbad.png",
+        "url":"https://breaking-bad-apis.netlify.app/"
+      },
+      {
+        "title":"Impôts simulateur 👩‍🎓💰",
+        "category":"Techno : React JS & Tailwind Css",
+        "image":"impots.png",
+        "url":"https://simulateur-impots-2020.netlify.app/"
+      },
+      {
+        "title":"Centre test COVID-19 🥼🦠",
+        "category":"Techno : React JS, Mapbox & Tailwind Css",
+        "image":"covid.gif",
+        "url":"https://test-covid-france.netlify.app/"
       }
     ]
   },

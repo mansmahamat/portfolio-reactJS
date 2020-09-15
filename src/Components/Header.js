@@ -38,7 +38,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">À propos de moi</a></li>
 	         <li><a className="smoothscroll" href="#resume">Parcours</a></li>
             <li><a className="smoothscroll" href="#portfolio">Portfolio</a></li>
-            <li><a className="smoothscroll" href="#testimonials">Citations</a></li>
+            <li><a href="https://mahamat-salle-mansour-blog.netlify.app/" target="_blank" rel="noopener noreferrer">Blog</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
 

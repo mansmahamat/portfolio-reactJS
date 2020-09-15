@@ -157,6 +157,10 @@
  .popup-modal a:hover {	color: #00CCCC; }
  .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
+ .text-xs {
+    font-size: 12px;
+ }
+
  /* fadein/fadeout effect for modal popup
 /* ------------------------------------------------------------------ */
 
