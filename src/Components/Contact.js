@@ -56,7 +56,7 @@ class Contact extends Component {
                       
                         <p>
                            Ma playlist pour travailler :
-                        <iframe scrolling="no" frameBorder="0" title="social" allowtransparency="true" src="https://www.deezer.com/plugins/player?format=square&autoplay=false&playlist=false&width=300&height=300&color=DDB122&layout=&size=medium&type=playlist&id=1655130801&app_id=1" width="300" height="300"></iframe>
+                           <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0SlHbqMm3vJ" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                         </p>
 
 
