@@ -8,7 +8,7 @@ class Portfolio extends Component {
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
-           <div className="item-wrap">
+           <div className="item-wrap board">
             <a href={projects.url} title={projects.title} target='_blank' rel="noopener noreferrer" >
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
@@ -32,7 +32,7 @@ class Portfolio extends Component {
 
          <div className="twelve columns collapsed">
 
-            <h1>Projets réalisés <span className="text-xs">(cliquez sur l'image pour voir le projet)</span> </h1>
+            <h1>Projets réalisés</h1>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                 {projects}

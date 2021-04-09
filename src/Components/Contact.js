@@ -55,7 +55,7 @@ class Contact extends Component {
 
                       
                         <p>
-                           Ma playlist pour travailler :
+                           Ma playlist pour travailler <span aria-label="musique" role="img">🎧</span> :
                            <iframe title="spotify" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX0SlHbqMm3vJ" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                         </p>
 

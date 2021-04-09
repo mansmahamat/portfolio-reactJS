@@ -146,52 +146,16 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Music 🎶",
-        "category":"Techno : PHP, Bootstrap, MySQL",
-        "image":"music.png",
-        "url":"http://mansmusic.ovh/music/register.php"
-      },
-      {
         "title":"Australia Savior 🔥",
         "category":"Projet de groupe, ⛔Non responsive, Techno : Tailwind CSS, Js vanilla, JQuery",
         "image":"australia.png",
         "url":"https://rudygzl.github.io/australiasavior/dist/"
       },
       {
-        "title":"Quizz Js",
-        "category":"Techno : Js Vanilla, Bootstrap, Anime.JS ",
-        "image":"quizz.png",
-        "url":"https://mansmahamat.github.io/QuizzCity/"
-      },
-      {
-        "title":"Portfolio v1 💻",
-        "category":"Techno : Bootstrap, jQuery ",
-        "image":"portfoliov1.png",
-        "url":"https://mansmahamat.github.io/portfolio-basic/"
-      },
-      {
-        "title":"App Music avec API Deezer 🎵",
-        "category":"Techno : React JS/Bootstrap",
-        "image":"deezermusic.png",
-        "url":"https://chalet-caviars.site/ "
-      },
-      {
         "title":"Classement football avec API Football-Data ⚽",
         "category":"Techno : React JS",
         "image":"football.png",
-        "url":"http://football.mansmusic.ovh/"
-      },
-      {
-        "title":"Champions Park 🎡",
-        "category":"Techno : Wordpress, WooCommerce",
-        "image":"wordpress.png",
-        "url":"https://www.fitactive.site/"
-      },
-      {
-        "title":"Go Rhino rent car 🚗",
-        "category":"Techno : Symfony, Algolia Place, Mapbox & Tailwind Css",
-        "image":"Gorhino.png",
-        "url":"http://gorhino.fitactive.site/"
+        "url":"https://nostalgic-lumiere-4e7271.netlify.app/"
       },
       {
         "title":"Mony App 💸",
@@ -202,20 +166,26 @@
       {
         "title":"Breaking Bad API 👨‍🏫👨‍🍳",
         "category":"Techno : VUE JS & Tailwind Css",
-        "image":"breakingbad.png",
+        "image":"breaking.png",
         "url":"https://breaking-bad-apis.netlify.app/"
       },
       {
         "title":"Impôts simulateur 👩‍🎓💰",
         "category":"Techno : React JS & Tailwind Css",
-        "image":"impots.png",
+        "image":"impot.png",
         "url":"https://simulateur-impots-2020.netlify.app/"
       },
       {
         "title":"Centre test COVID-19 🥼🦠",
         "category":"Techno : React JS, Mapbox & Tailwind Css",
-        "image":"covid.gif",
+        "image":"covid.png",
         "url":"https://test-covid-france.netlify.app/"
+      },
+      {
+        "title":"Mentor Moi ",
+        "category":"Techno : Vue JS, Node Express & Tailwind Css",
+        "image":"mentor.png",
+        "url":"https://mentor-moi.netlify.app/"
       }
     ]
   },
